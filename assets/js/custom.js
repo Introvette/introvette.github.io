@@ -202,9 +202,9 @@
                 speed: 300,
                 loop:true,
                 strings: [
-                  'Full Stack Engineer',
-                  'Frontend Engineer',
-                  'Backend Engineer',
+                  'Full Stack Developer',
+                  'Frontend Software Engineer',
+                  'Backend Software Engineer',
                 ],
                 breakLines: false
             });
