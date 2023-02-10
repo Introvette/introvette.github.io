@@ -14,8 +14,16 @@
     <!-- theme css -->
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<!-- Body Start -->
 
+<!-- JS -->
+<script>
+    window.onload = function(){
+var date = new Date().getFullYear();
+document.getElementById("year").innerHTML = date;
+    }
+</script>
+
+<!-- Body Start -->
 <body>
     <!-- page loading -->
     <div id="loading">
@@ -413,7 +421,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 py-2 text-center text-md-end">
-                    <p class="m-0">© Yvette Rosario 2022</p>
+                    <p class="m-0">© Yvette Rosario  <span id="year"></span></p>
                 </div>
             </div>
         </div>
