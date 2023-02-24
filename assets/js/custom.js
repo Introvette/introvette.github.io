@@ -202,7 +202,7 @@
                 speed: 300,
                 loop:true,
                 strings: [
-                  'Full Stack Developer',
+                  'Full Stack Software Engineer',
                   'Frontend Software Engineer',
                   'Backend Software Engineer',
                 ],
